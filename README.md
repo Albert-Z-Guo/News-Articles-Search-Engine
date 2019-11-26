@@ -18,4 +18,4 @@ When posting articles to AWS Elasticsearch serivce, the news HTML webpages colle
 
 The backend Search API is deployed to an [Apache Tomcat](https://en.wikipedia.org/wiki/Apache_Tomcat) environment managed by [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/). The frontend Search website is hosted in a [AWS S3](https://aws.amazon.com/s3/) bucket.
 
-The complete code base is available upon request due to academic integrity policy. A video that describes the project is available [here](https://youtu.be/HTkAXr3fQCE).
+The complete code base is available upon request only due to academic integrity policy. A video demo that describes this project is available [here](https://youtu.be/HTkAXr3fQCE).
