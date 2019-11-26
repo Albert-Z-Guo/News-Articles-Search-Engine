@@ -1,7 +1,7 @@
 # News Articles Search Engine
 
 ## Project Description
-This project periodically import news articles crawled from the internet by the [Common Crawl](https://commoncrawl.org/the-data/). The imported new articles are searchable with keywords (highlighted), publishing date, and language (English and Non-English). The users can also navigate through search results in pages.
+This project periodically import news articles crawled from the internet by the [Common Crawl](https://commoncrawl.org/the-data/). The imported new articles are searchable with keywords (highlighted in returned results in pages), publishing date, and language (English and Non-English).
 
 This project consists 4 parts:
 1. A [AWS Lambda](https://aws.amazon.com/lambda/) function that periodically imports (checking every hour) the latest crawled news articles and sends parsed news to [AWS Simple Queue Service (SQS)](https://aws.amazon.com/sqs/)
