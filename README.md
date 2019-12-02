@@ -5,7 +5,7 @@ This project periodically import news articles crawled from the internet by the 
 
 This project consists of 4 parts:
 1. An [AWS Lambda](https://aws.amazon.com/lambda/) function that periodically imports (checking every hour) the latest crawled news articles and sends parsed news to [AWS Simple Queue Service (SQS)](https://aws.amazon.com/sqs/)
-2. nA AWS Lambda function that retrieves parsed news from AWS SQS and post them to [AWS Elasticsearch Service](https://aws.amazon.com/elasticsearch-service/)
+2. An AWS Lambda function that retrieves parsed news from AWS SQS and post them to [AWS Elasticsearch Service](https://aws.amazon.com/elasticsearch-service/)
 3. Backend Search API
 4. Frontend Search Website
 
