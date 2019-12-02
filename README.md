@@ -9,7 +9,7 @@ This project consists of 4 parts:
 3. Backend Search API
 4. Frontend Search Website
 
-When posting articles to AWS Elasticsearch service, the news HTML webpages collectively stored in a `.warc.gz` file is each parsed to the following fields in a JSON Object:
+When posting articles to AWS Elasticsearch service, the news HTML webpages collectively stored in a `.warc.gz` file are each parsed to the following fields in a JSON Object:
 - URL
 - Title
 - Text
